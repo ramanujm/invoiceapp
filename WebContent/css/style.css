@@ -1,0 +1,217 @@
+A:link
+{
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    COLOR: #999999;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    COLOR: #999999;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    COLOR: #999999;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    BACKGROUND: none transparent scroll repeat 0% 0%;
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.header
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+	COLOR: #003C69;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left
+}
+P.header
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #003C69;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left
+}
+.header A:link
+{
+    TEXT-DECORATION: none
+}
+.header A:visited
+{
+    TEXT-DECORATION: none
+}
+.header A:hover
+{
+    TEXT-DECORATION: none
+}
+P.title
+{
+    FONT-SIZE: 12px;
+    COLOR: #ffb612;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center;
+	COLOR: #003C69;
+}
+.content
+{
+    FONT-SIZE: 11px;
+    COLOR: #000000;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left
+}
+.small
+{
+    FONT-SIZE: 10px;
+    FONT-STYLE: italic;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+.lender
+{
+    FONT-SIZE: 9px;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TABLE.rates
+{
+    FONT-SIZE: xx-small;
+    BACKGROUND: white;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: center
+}
+TD.lenders
+{
+    FONT-SIZE: 10px;
+    TEXT-ALIGN: right
+}
+TD
+{
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TABLE.index
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: xx-small;
+    BACKGROUND: white;
+    VERTICAL-ALIGN: top;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    TEXT-ALIGN: left
+}
+TD.index
+{
+    BACKGROUND: #eeeeee;
+    VERTICAL-ALIGN: top
+}
+TABLE.indexrates
+{
+    FONT-SIZE: xx-small;
+    COLOR: black;
+    TEXT-ALIGN: center
+}
+TD.NN
+{
+    BACKGROUND: #909090;
+    VERTICAL-ALIGN: top;
+    TEXT-ALIGN: center
+}
+TABLE.image
+{
+    BACKGROUND-POSITION: 50% bottom;
+    BACKGROUND-IMAGE: url(images/background2.jpg);
+    BACKGROUND-REPEAT: no-repeat
+}
+P.image
+{
+    BACKGROUND-IMAGE: url(images/background2.jpg);
+    BACKGROUND-REPEAT: no-repeat
+}
+TEXTAREA
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: "Verdana", "Arial"
+}
+INPUT
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: "Verdana", "Arial"
+}
+SELECT
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: "Verdana", "Arial"
+}
+OPTION
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: "Verdana", "Arial"
+}
+.text
+{
+    FONT-SIZE: 12px;
+    FONT-FAMILY: "Verdana", "Arial"
+}
+.bodyformtext
+{
+    FONT-SIZE: 10pt;
+    COLOR: #000000;
+    FONT-FAMILY: Arial, Helvitica
+}
+.formMainHdrs
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #ffb612;
+    FONT-FAMILY: Arial, helvitica
+}
+.formSubHdrs
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 10pt;
+    COLOR: #ffb612;
+    FONT-FAMILY: Arial, helvitica
+}
+.mandatory
+{
+    FONT-WEIGHT: bolder;
+    COLOR: red;
+    FONT-FAMILY: Arial, helvitica
+}
+
+HR {
+  border: 0;
+  COLOR: #ffb612;
+  background-color: #ffb612;
+  background: #ffb612;
+  width: 640;
+  height: 2pt;
+}
+.apply {
+  COLOR: #003C69;
+  FONT-WEIGHT: bold;
+}
+.mainHeader {
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: 18pt;
+    COLOR: #ffb612;
+    FONT-FAMILY: Arial, helvitica
+}
+.mainButton {
+  FONT-SIZE: 12pt;
+  FONT-WEIGHT: bold;
+  COLOR: #003C69;
+  FONT-FAMILY: Arial, helvitica
+}
+.mainButtonHeading {
+  FONT-SIZE: 11pt;
+  FONT-STYLE: italic;
+  COLOR: #003C69;
+  FONT-FAMILY: Arial, helvitica
+}
