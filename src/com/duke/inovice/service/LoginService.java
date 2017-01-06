@@ -14,7 +14,7 @@ public interface LoginService {
      * @return int code regarding the status of the login.
      * @throws Exception
      */
-	public int doLogin(Login login) throws Exception;
+	public int doLogin(String username, String password) throws Exception;
 	
 	
 }

@@ -6,15 +6,69 @@ public class Business {
 
 	private String name;
 	private Address address;
-	private Contractor contactPerson;
+	private Technician contactPerson;
     private List<Customer> customers;
     private String contactEmail;
     private String phone;
     private List<Service> services;
-    private Login login;
+    private String industry;
+    private String region;
+    private String taxNo;
+    private String fax;
+    private String website;
+    private byte[] companyLogo;
+    private List<Contract> contractTempates;
+    private List<EmailTemplate> emailTempates;
     
     
-    
+	public List<Contract> getContractTempates() {
+		return contractTempates;
+	}
+	public void setContractTempates(List<Contract> contractTempates) {
+		this.contractTempates = contractTempates;
+	}
+	public List<EmailTemplate> getEmailTempates() {
+		return emailTempates;
+	}
+	public void setEmailTempates(List<EmailTemplate> emailTempates) {
+		this.emailTempates = emailTempates;
+	}
+	public byte[] getCompanyLogo() {
+		return companyLogo;
+	}
+	public void setCompanyLogo(byte[] companyLogo) {
+		this.companyLogo = companyLogo;
+	}
+	public String getRegion() {
+		return region;
+	}
+	public void setRegion(String region) {
+		this.region = region;
+	}
+	public String getTaxNo() {
+		return taxNo;
+	}
+	public void setTaxNo(String taxNo) {
+		this.taxNo = taxNo;
+	}
+	public String getFax() {
+		return fax;
+	}
+	public void setFax(String fax) {
+		this.fax = fax;
+	}
+	public String getWebsite() {
+		return website;
+	}
+	public void setWebsite(String website) {
+		this.website = website;
+	}
+	public String getIndustry() {
+		return industry;
+	}
+	public void setIndustry(String industry) {
+		this.industry = industry;
+	}
 	public String getName() {
 		return name;
 	}
@@ -27,10 +81,10 @@ public class Business {
 	public void setAddress(Address address) {
 		this.address = address;
 	}
-	public Contractor getContactPerson() {
+	public Technician getContactPerson() {
 		return contactPerson;
 	}
-	public void setContactPerson(Contractor contactPerson) {
+	public void setContactPerson(Technician contactPerson) {
 		this.contactPerson = contactPerson;
 	}
 	public List<Customer> getCustomers() {
@@ -57,12 +111,7 @@ public class Business {
 	public void setServices(List<Service> services) {
 		this.services = services;
 	}
-	public Login getLogin() {
-		return login;
-	}
-	public void setLogin(Login login) {
-		this.login = login;
-	}
+
 	
 	
 }

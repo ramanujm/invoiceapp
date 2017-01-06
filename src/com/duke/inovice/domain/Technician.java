@@ -1,10 +1,9 @@
 package com.duke.inovice.domain;
 
-public class Contractor {
+public class Technician {
 
 	private String fname;
 	private String lname;
-	private byte[] signature;
 	public String getFname() {
 		return fname;
 	}
@@ -17,13 +16,6 @@ public class Contractor {
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
-	public byte[] getSignature() {
-		return signature;
-	}
-	public void setSignature(byte[] signature) {
-		this.signature = signature;
-	}
-	
 	
 	
 }
