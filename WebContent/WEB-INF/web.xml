@@ -39,4 +39,13 @@
         </param-value>
     </context-param>
     
+      <filter>
+        <filter-name>cors</filter-name>
+        <filter-class>com.duke.invoice.filter.CORSFilter</filter-class> <!-- your package name and filter class -->
+    </filter>
+    <filter-mapping>
+        <filter-name>cors</filter-name>
+        <url-pattern>/action/*</url-pattern>
+    </filter-mapping>
+    
 </web-app>

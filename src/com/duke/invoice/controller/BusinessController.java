@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.duke.inovice.domain.Business;
 import com.duke.inovice.domain.Login;
+import com.duke.invoice.weberequests.RegisterRq;
 
 /**
  * Main controller for all business related activity.
@@ -42,9 +43,16 @@ public class BusinessController {
 	}
 	
 	@RequestMapping(value = "/register" , method = RequestMethod.POST)
-	public @ResponseBody Response doLogin(@RequestParam("username") String username , @RequestParam("password") String password ,
-			@RequestParam("industry") String industry) {
-    
+	public @ResponseBody Response doRegister(@RequestBody RegisterRq registerRq) {    
+            Response response = new Response();
+        	response.setResult("Success");
+        	response.setCode("001");
+       
+	   return response;
+	}
+	
+	@RequestMapping(value = "/register2" , method = RequestMethod.GET)
+	public @ResponseBody Response doregisterdum() {    
             Response response = new Response();
         	response.setResult("Success");
         	response.setCode("001");
